@@ -1,0 +1,25 @@
+.contacts {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.contacts__phone {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.contacts__info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 5px;
+    color: #fff;
+    text-align: right;
+}
+

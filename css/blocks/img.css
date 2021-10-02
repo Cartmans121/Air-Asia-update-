@@ -1,0 +1,16 @@
+
+.main-page-wrapper {
+    background: url("./img/background_elephant.png") center top no-repeat, 
+    url("./img/background_mountains.png") right bottom 311px no-repeat;
+}
+
+
+.about:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 488px;
+    height: 502px;
+    background: url(./img/gates.png) center center / cover no-repeat;
+}
+

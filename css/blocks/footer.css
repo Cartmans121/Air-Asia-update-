@@ -1,0 +1,249 @@
+
+.contacts__desc {
+    color: #9A9A9A;
+    font-size: 11px;
+    font-style: normal;
+}
+
+
+.btn--new:hover {
+    background: #ffffff;
+    border-radius: 35px;
+    padding: 16px 34px;
+    color: #f00;
+    font-weight: bold;
+    text-transform: uppercase;
+    border:1px solid red;
+    transition: .3s;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+
+.btn--new {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 16px 34px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+/* line */
+.footer-container__content {
+    border-top: 1px solid #fff;
+    opacity: 0.1;
+    position: relative;
+    top: 69px;
+} 
+
+.btn--active:active {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 16px 34px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-news {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+
+.news__item {
+    width: 555px;
+    height: 392px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+}
+
+.news__item:last-child {
+    margin-right: 0;
+}
+
+.single-news__cover {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-news__content {
+    left: 2px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    min-height: 161px;
+    padding: 29px 32px;
+}
+
+.time.single-news__date {
+    font-size: 14px;
+}
+
+h3.single-news__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 109px 376px;
+    padding-bottom: 50px;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--align--right {
+    align-items: baseline;
+    width: 180px;
+}
+
+.about:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 488px;
+    height: 502px;
+    background: url(./img/gates.png) center center / cover no-repeat;
+}
+
+.about__desc {
+    background: url(./img/mountains.png);
+    padding: 104px 141px;
+    display: inline-block;
+    vertical-align: top;
+    width: 783px;
+    margin-left: -126px;
+    margin-top: 99px;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: -59px;
+    margin-bottom: 38px;
+    margin-top: -25px;
+    color: #000000;
+}
+.about__desc-text {
+    margin-bottom: 52px;
+    position: relative;
+    right: 61px;
+    line-height: 27px;
+}
+
+.about__desc-text p {
+    margin-bottom: 20px;
+    color: #060606;
+}
+.about__desc-text p:last-child {
+    margin-bottom: 0;
+}
+
+.main-page-wrapper {
+    background: url("./img/background_elephant.png") center top no-repeat, 
+    url("./img/background_mountains.png") right bottom 311px no-repeat;
+}
+
+/* Services */ 
+.footer--services {
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 55px 18px;
+}
+
+.inner-footer {
+    margin-top: auto;
+}
+
+.footer__col--services {
+    display: flex;
+    align-items: center;
+}
+
+
+.contacts__desc--services {
+    color: #9A9A9A;
+    font-size: 11px;
+    font-style: normal;
+}
+
+/*sprite*/
+
+.socials__item--icon--telegram .socials__link {
+    background: url("./img/icons/sprites.png") -234px; transition: .3s;
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+    background: url("./img/icons/sprites.png") -290px; transition: .3s;
+}
+
+.socials__item--icon--vk .socials__link {
+    background: url("./img/icons/sprites.png") -346px; transition: .3s;
+}
+
+.socials__item--icon--vk .socials__link:hover {
+    background: url("./img/icons/sprites.png") -402px; transition: .3s;
+}
+.socials__item--icon--fb .socials__link {
+    background: url("./img/icons/sprites.png") -10px; transition: .3s;
+}
+
+.socials__item--icon--fb .socials__link:hover {
+    background: url("./img/icons/sprites.png") -66px; transition: .3s;
+}
+.socials__item--icon--insta .socials__link {
+    background: url("./img/icons/sprites.png") -122px; transition: .3s; 
+}
+
+.socials__item--icon--insta .socials__link:hover {
+    background: url("./img/icons/sprites.png") -178px;transition: .3s; 
+}
+
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials {
+    display: flex;
+    width: 0px;
+    margin-left: 112px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+address.contacts--services {
+    margin-right: -22px;
+}

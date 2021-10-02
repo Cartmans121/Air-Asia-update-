@@ -1,0 +1,17 @@
+@import url('./layout/fonts.css');
+@import url('./layout/base.css');
+@import url('./layout/normalize.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/routemain.css');
+@import url('./blocks/desc.css');
+@import url('./blocks/offers.css');
+@import url('./blocks/news.css');
+@import url('./blocks/pager.css');
+@import url('./blocks/services-partnters.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/img.css');
+@import url('./blocks/dropdown.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/welcome.css');

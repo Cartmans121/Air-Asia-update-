@@ -1,0 +1,98 @@
+h2.title {
+
+    display: flex;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-top: 136px;
+    margin-left: 15px;
+}
+
+ul.news {
+    margin-top: 54px;
+    margin-left: 11px;
+}
+
+.news_content {
+    position: absolute;
+    width: 557px;
+    height: 394px;
+    left: 389px;
+    top: 1551px;
+}
+
+/* Крыло */
+img.news_img_main {
+    position: absolute;
+    width: 557px;
+    height: 394px;
+    left: 389px;
+    top: 1551px;
+}
+
+/* Декабрь 2019 */
+time.news__date {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    bottom: 20px;
+    right: 427px;
+    font-size: 14px;
+}
+
+/* Дешевые путевки на новый год! */ 
+h3.news__title {
+    height: 46px;
+    position: absolute;
+    bottom: 61px;
+    padding-left: 28px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Проведи новый год в Таиланде */
+p.news__text {
+    left: 28px;
+    position: absolute;
+    bottom: 38px;
+}
+
+/* Серфенгист2 */
+img.news_img_inner {
+    position: absolute;
+    width: 557px;
+    height: 394px;
+    left: 971px;
+    top: 1551px;
+}
+
+/* Декабрь 2021 */
+time.news_date {
+    width: 574px;
+    left: 611px;
+    height: 100px;
+    position: absolute;
+    bottom: 41px;
+    font-size: 14px;
+}
+
+/* Акция для серфенгистов!*/
+h3.news_title {
+    width: 572px;
+    left: 609px;
+    height: 76px;
+    position: absolute;
+    bottom: 31px;
+    font-weight: bold;
+    font-size: 24px;
+}
+/* В сезон больших волн */
+p.news_text {
+    width: 565px;
+    left: 614px;
+    height: 99px;
+    position: absolute;
+    bottom: -34px;
+}
+
+
