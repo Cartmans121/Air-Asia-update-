@@ -132,10 +132,6 @@
         resize: none;
 }
 
-input.form__input {
-    border: 1px solid #ccc;/*цвет рамки при нормальных условиях*/
-}
-
 input {
     outline: none; /*убирает свичение рамки*/
 }
