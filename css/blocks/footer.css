@@ -33,7 +33,7 @@
     border-top: 1px solid #fff;
     opacity: 0.1;
     position: relative;
-    top: 69px;
+    top: -35px;
 } 
 
 .btn--active:active {
@@ -101,8 +101,6 @@ h3.single-news__title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 109px 376px;
-    padding-bottom: 50px;
 }
 
 .footer__col {
@@ -246,4 +244,11 @@ h3.single-news__title {
 
 address.contacts--services {
     margin-right: -22px;
+}
+
+.footer-container {
+    width: 1150px;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 100px;
 }
